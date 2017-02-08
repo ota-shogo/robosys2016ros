@@ -14,11 +14,8 @@ Raspberry Pyのほうで速度と回転の命令をpublishするプログラム�
 Raspberry PyのROSMASTERをノートパソコンにしておく。<br>
 ノートパソコンでrosを起動する。<br>
 $roscore<br>
-違う端末を立ち上げてturtlesimを起動する。<br>
-$rosrun turtlesim turtlesim_node<br>
-Raspberry Pyの端末を立ち上げてプログラムが置いてあるディレクトリ内でプログラムを実行する。<br>
-$cd robosys2016ros/scripts<br>
-$python kamesan.py<br>
+違う端末を立ち上げてlanchファイルを立ち上げる。<br>
+$roslaunch mypkg kame.launch
 ###LICENSE<br>
 ライセンスファイルを参照
 ###参考文献<br>
